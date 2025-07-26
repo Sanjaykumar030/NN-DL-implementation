@@ -2,10 +2,10 @@
 
 ## Overview
 
-This repository provides a **minimal yet comprehensive implementation of a fully-connected neural network in NumPy**, designed for educational purposes and experimentation. The implementation covers essential deep learning concepts, including custom activation functions, forward and backward propagation, gradient descent, and model evaluation. 
-
-The code is structured to be accessible for learners and serves as a strong foundation for extending to more complex architectures and tasks.
-
+- This repository is created for self-learning purposes and is designed to be programmer-friendly, with clear and understandable comments for every function and code block.
+- All code logic and notations follow Andrew Ng's Deep Learning Specialization (Course 1).
+-  The implementation is from scratch using NumPy, without using high-level libraries like TensorFlow or PyTorch.
+-  Ideal for learners who want to understand the fundamentals of neural networks through hands-on coding.
 ---
 
 ## Features
@@ -19,7 +19,9 @@ The code is structured to be accessible for learners and serves as a strong foun
 - **Training and Prediction Utilities**: Simple interface for training the model and making predictions.
 - **Demonstration with Synthetic Data**: Example for binary classification with randomly generated data.
 
----
+## Shallow Neural Network Architecture
+![Shallow Neural Network Architecture](https://github.com/user-attachments/assets/163c9588-b807-4ca3-bcd0-e2bb9f83494e)
+
 
 ## Table of Contents
 
@@ -135,8 +137,7 @@ Training accuracy: 99.80%
 
 ## References
 
-- Deep Learning Specilisation - Neural Networks and Deep Learning (Course 1)(https://www.coursera.org/learn/neural-networks-deep-learning)
-
+- Deep Learning Specialization – Neural Networks and Deep Learning (Course 1)](https://www.coursera.org/learn/neural-networks-deep-learning) by Andrew Ng
 ---
 
 ## License
