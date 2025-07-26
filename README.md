@@ -20,8 +20,7 @@
 - **Demonstration with Synthetic Data**: Example for binary classification with randomly generated data.
 
 ## Shallow Neural Network Architecture
-![Shallow Neural Network Architecture](https://github.com/user-attachments/assets/163c9588-b807-4ca3-bcd0-e2bb9f83494e)
-
+<img src="https://github.com/user-attachments/assets/163c9588-b807-4ca3-bcd0-e2bb9f83494e" alt="Shallow Neural Network Diagram" width="600"/>
 
 ## Table of Contents
 
@@ -137,7 +136,7 @@ Training accuracy: 99.80%
 
 ## References
 
-- Deep Learning Specialization – Neural Networks and Deep Learning (Course 1)](https://www.coursera.org/learn/neural-networks-deep-learning) by Andrew Ng
+- [Deep Learning Specialization – Neural Networks and Deep Learning (Course 1)](https://www.coursera.org/learn/neural-networks-deep-learning) by Andrew Ng
 ---
 
 ## License
