@@ -4,14 +4,15 @@
 
 - This repository is created for self-learning purposes and is designed to be programmer-friendly, with clear and understandable comments for every function and code block.
 - All code logic and notations follow Andrew Ng's Deep Learning Specialization (Course 1).
--  The implementation is from scratch using NumPy, without using high-level libraries like TensorFlow or PyTorch.
--  Ideal for learners who want to understand the fundamentals of neural networks through hands-on coding.
+- The implementation is from scratch using NumPy, without using high-level libraries like TensorFlow or PyTorch.
+- Ideal for learners who want to understand the fundamentals of neural networks through hands-on coding.
+
 ---
 
 ## Features
 
 - **Manual Neural Network Construction**: No external deep learning libraries (e.g., TensorFlow, PyTorch) required—everything is built from scratch using NumPy.
-- **Customizable Architecture**: Change number of input features, hidden units, and output classes easily.
+- **Customizable Architecture**: Change the number of input features, hidden units, and output classes easily.
 - **Activation Functions**: Implements Sigmoid, ReLU, and Tanh, with their derivatives for backpropagation.
 - **Forward and Backward Propagation**: Step-by-step computation of all intermediate values and gradients.
 - **Cross-Entropy Loss**: Standard cost function for binary classification.
@@ -68,14 +69,14 @@ Training accuracy: 99.80%
 
 ### 1. Activation Functions
 
-- **Sigmoid**: `1 / (1 + exp(-z))`
-- **ReLU**: `max(0, z)`
+- **Sigmoid**: `1 / (1 + np.exp(-z))`
+- **ReLU**: `np.maximum(0, z)`
 - **Tanh**: `np.tanh(z)`
 - **Derivatives**: All derivatives are explicitly defined for use in backpropagation.
 
 ### 2. Parameter Initialization
 
-Weights and biases are initialized with small random values (weights) and zeros (biases) for both layers, ensuring efficient convergence.
+Weights are initialized with small random values and biases with zeros for both layers, ensuring efficient convergence.
 
 ### 3. Forward Propagation
 
@@ -129,7 +130,7 @@ Training accuracy: 99.80%
 - **Different Activation Functions**: Try Leaky ReLU, Softmax, or others.
 - **Regularization**: Add L2/L1 regularization to mitigate overfitting.
 - **Mini-batch Gradient Descent**: Improve performance on large datasets.
-- **Support for Multiclass Classification**: Replace sigmoid with softmax and generalize loss function.
+- **Support for Multiclass Classification**: Replace sigmoid with softmax and generalize the loss function.
 - **Visualization**: Plot decision boundaries and training curves.
 
 ---
@@ -137,6 +138,7 @@ Training accuracy: 99.80%
 ## References
 
 - [Deep Learning Specialization – Neural Networks and Deep Learning (Course 1)](https://www.coursera.org/learn/neural-networks-deep-learning) by Andrew Ng
+
 ---
 
 ## License
